@@ -7,27 +7,51 @@
     <title>Wesi Sucos</title>
   </head>
   <body>
+    <div class="circulo"></div>
     <img class="img-logo" src="./img/LOGO.png" alt="" />
 
     <div class="conteudo">
-      <div>
+      <div class="caixa-texto">
         <h2>O melhor suco esta aqui no: <br /><span> Wesi Sucos! </span></h2>
         <p>
           Aqui você encontra o suco para toda a familia. Temos sucos de frutas e
           detox para uma vida mais saudavel.
+          <button>Contato</button>
         </p>
-        <button>Comprar</button>
       </div>
-      <div>
+
+      <div class="caixa-imagem">
         <img src="./img/4.png" alt="" class="img-home" />
       </div>
     </div>
 
-    <div>
-      <img src="./img/1.png" alt="" class="img-prod" />
-      <img src="./img/5.png" alt="" class="img-prod" />
-      <img src="./img/8.webp" alt="" class="img-prod" />
-      <img src="./img/9.webp" alt="" class="img-prod" />
+    <div class="imagem-produto">
+      <img
+        src="./img/1.png"
+        alt=""
+        class="img-prod"
+        onclick="trocaImagem('./img/1.png'); trocaCor('#017143')"
+      />
+      <img
+        src="./img/5.png"
+        alt=""
+        class="img-prod"
+        onclick="trocaImagem('./img/5.png'); trocaCor('#eb7495')"
+      />
+      <img
+        src="./img/8.webp"
+        alt=""
+        class="img-prod"
+        onclick="trocaImagem('./img/8.webp'); trocaCor('#d425')"
+      />
+      <img
+        src="./img/9.webp"
+        alt=""
+        class="img-prod"
+        onclick="trocaImagem('./img/9.webp'); trocaCor('#017174')"
+      />
     </div>
   </body>
+
+  <script src="./script.js"></script>
 </html>

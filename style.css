@@ -9,9 +9,26 @@ body {
   padding: 20px 100px 20px 100px;
 }
 
+.circulo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: blue;
+  top: 0;
+  left: 0;
+  clip-path: circle(40% at right 500px);
+  z-index: -1;
+}
+
 .conteudo {
   width: 100%;
   display: flex;
+  align-items: center;
+}
+
+.caixa-texto {
+  width: 600px;
+  display: block;
 }
 
 .img-logo {
@@ -46,12 +63,22 @@ button {
   padding: 10px 25px 10px 25px;
   margin-top: 40px;
   font-size: 15px;
+  display: block;
+}
+
+.caixa-imagem {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
 }
 
 .img-home {
-  width: 300px;
-  border-radius: 20px;
-  justify-content: space-between;
+  position: relative;
+  width: 50%;
+  border-radius: 90px;
+  margin-top: 40px;
+  left: 50px;
 }
 
 .img-prod {
@@ -59,8 +86,16 @@ button {
   height: 80px;
   cursor: pointer;
   transition: 1s;
+  margin: 0;
+}
+
+.imagem-produto {
+  display: flex;
+  justify-content: center;
 }
 
 .img-prod:hover {
   transform: translateY(-25px);
 }
+
+/***********************************************************/
