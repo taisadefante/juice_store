@@ -16,7 +16,7 @@ body {
   background: blue;
   top: 0;
   left: 0;
-  clip-path: circle(40% at right 500px);
+  clip-path: circle(50% at right 600px);
   z-index: -1;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .caixa-texto {
-  width: 600px;
+  width: 700px;
   display: block;
 }
 
